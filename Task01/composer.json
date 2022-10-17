@@ -1,0 +1,21 @@
+{
+    "name": "pozharsky/task01",
+    "authors": [
+        {
+            "name": "ValentinePozharsky"
+        }
+    ],
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
